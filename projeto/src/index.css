@@ -1,0 +1,59 @@
+:root {
+  --apple-text: #1d1d1f;
+  --apple-muted: #6e6e73;
+  --apple-border: rgba(15, 23, 42, 0.08);
+  --apple-bg: #f5f5f7;
+  --apple-blue: #0071e3;
+  --apple-blue-strong: #0a84ff;
+
+  font-family: 'SF Pro Display', 'SF Pro Text', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--apple-text);
+  background: var(--apple-bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--apple-bg);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--apple-bg);
+  color: var(--apple-text);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
